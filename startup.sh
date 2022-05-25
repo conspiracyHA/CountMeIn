@@ -1,0 +1,1 @@
+pip install -r requirements.txt && gunicorn --bind=0.0.0.0 --chdir bin --workers=1 app:app
